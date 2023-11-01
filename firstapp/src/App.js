@@ -1,17 +1,20 @@
 import "./App.css";
 
+
 import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Counter from "./components/Counter";
 
 const App = () => {
+  const username = "Shailanshu";
+
   return (
     <div>
-      <h1>Shailanshu</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-        consequatur dolore assumenda! Mollitia amet maxime eaque asperiores
-        ipsam sequi cumque neque ratione quis ad, possimus rerum maiores atque
-        eius sunt.
-      </p>
+      <Header/>
+      <h1 className="active">welcome {username}</h1>
+      <Counter/>
+      <Footer/>
     </div>
   );
 };
