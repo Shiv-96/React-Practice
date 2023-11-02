@@ -15,11 +15,16 @@ const Body = () => {
             setCounter(counter-1)
     }
 
+    function resetHandler(){
+        setCounter(0)
+    }
+
   return (
     <div className='box'>
         <h3>Total count = {counter}</h3>
         <button onClick={addHandler}>Add</button>
         <button onClick={subHandler}>Sub</button>
+        <button onClick={resetHandler}>Reset</button>
     </div>
   )
 }
