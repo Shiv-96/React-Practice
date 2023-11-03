@@ -1,0 +1,26 @@
+.delete {
+  background-color: transparent;
+  height: 40px;
+  width: 70px;
+}
+li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  width: 25vw;
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+span {
+  margin-right: 30px;
+}
+h1{
+    margin: auto;
+    width: 150px;
+}
